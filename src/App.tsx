@@ -334,6 +334,7 @@ const Gallery = () => {
     { category: 'Chairs', img: 'https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?q=80&w=1965&auto=format&fit=crop' },
     { category: 'Tables', img: 'https://images.unsplash.com/photo-1604578762246-41134e37f9cc?q=80&w=1982&auto=format&fit=crop' },
     { category: 'Sofas', img: 'https://images.unsplash.com/photo-1540574163026-643ea20abc46?q=80&w=2070&auto=format&fit=crop' },
+    { category: 'Sofas', img: 'https://images.unsplash.com/photo-1550254478-ead40cc54513?q=80&w=2000&auto=format&fit=crop' },
   ];
 
   const filteredPortfolio = activeTab === 'All' ? portfolio : portfolio.filter(item => item.category === activeTab);
